@@ -1,6 +1,7 @@
-source 'http://rubygems.org'
+source :gemcutter
+#source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
+gem 'rails', '3.0.3', :require => nil
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -29,3 +30,22 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem 'haml'
+gem 'jpmobile'
+gem 'jquery_rails3'
+
+group :development, :test do
+  gem 'jasmine'
+  gem 'jquery-rails'
+  gem 'rails-erd'
+  gem 'rspec-rails'
+  gem 'typus', :git => 'https://github.com/fesplugas/typus.git'
+  gem 'webrat'
+end
+
+
+group :test do
+  gem 'rr'
+end
+
