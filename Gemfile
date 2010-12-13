@@ -32,12 +32,12 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # end
 
 gem 'haml'
-gem 'jpmobile'
-gem 'jquery_rails3'
+#gem 'jpmobile'
+#gem 'jquery_rails3'
 
 group :development, :test do
   gem 'jasmine'
-  gem 'jquery-rails'
+#  gem 'jquery-rails'
   gem 'rails-erd'
   gem 'rspec-rails'
   gem 'typus', :git => 'https://github.com/fesplugas/typus.git'
