@@ -1,0 +1,34 @@
+# Typus Models Configuration File
+#
+# Use the README file as a reference to customize settings.
+
+Categ:
+  fields:
+    default: name
+    form: name, dscr
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: name
+  application: hajimete
+
+Task:
+  fields:
+    default: title, completed, user_id, global_user_id
+    form: title, completed, user_id, global_user_id
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: title
+  application: hajimete
+
+User:
+  fields:
+    default: username
+    form: username
+  order_by: 
+  relationships: 
+  filters: created_at
+  search: 
+  application: hajimete
+
